@@ -1,0 +1,16 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.star-comp{
+    font-size: 40px;
+    
+}
+.star{
+    padding: 5px;
+    cursor: pointer;
+}
+.star-list{
+    color: yellow;
+}

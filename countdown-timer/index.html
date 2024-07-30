@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <span class="container__title">CountDown timer</span>
+        <div class="container__lables">
+            <p class="container__lables--lable">Hour</p>
+            <p class="container__lables--lable">Minutes</p>
+            <p class="container__lables--lable">Seconds</p>
+        </div>
+        <div class="container__inputs">
+            <input type="number" class="container__input" maxlength="2" oninput="this.value = this.value.slice(0,this.maxLength)" placeholder="00">
+            <input type="number" class="container__input" maxlength="2" oninput="this.value = this.value.slice(0,this.maxLength)" placeholder="00">
+            <input type="number" class="container__input" maxlength="2" oninput="this.value = this.value.slice(0,this.maxLength)" placeholder="00">
+        </div>
+        <div class="container__btns">
+            <button class="btn start">Start</button>
+            <button class="btn stop">Stop</button>
+            <button class="btn reset">Reset</button>
+        </div>
+    </div>
+    <script src = "index.js"></script>
+</body>
+</html>
