@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../countdown-timer"
+		},
+		{
+			"path": "../test_count--down--timer"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}

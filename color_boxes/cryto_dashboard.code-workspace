@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../cryto_dashboard"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "cryto_dashboard"
+	}
+}
